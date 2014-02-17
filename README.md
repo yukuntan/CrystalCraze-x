@@ -10,15 +10,22 @@ needs:
 compile step:
 
 1.create a cocos2d-x project named CrystalCraze.
+
 2.replace these files in your project:
     a.just place files in the root directory.
+    
 3.open CrystalCraze.ccbproj with cocosbuilder and publish
+
 4.remove your resources in your xcode project and add "Published-iOs" directory to resources by checking the "create folder references for any folders".
+
 5.modify the Project settings for the ios:
     a.click your project.
     b.select the "target" to the "CrystalCraze iOS".
     c.set the "Device Orientation" to the "Portrait" only. unchecked all the others.
-6.compile now and run.
+    
+6.modify the "main.cpp" in the mac directory, set the 960, 640 to 480, 720
+
+7.compile now and run.
 
 info:
 email: codecraft@163.com
